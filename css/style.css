@@ -1,0 +1,98 @@
+.demo-layout-transparent {
+	background: #131a24;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+	background: #0b1016;
+	color: white;
+}
+.mdl-layout-title{
+	color: #61d9ef;
+}
+.mdl-layout-title a{
+	text-decoration: none;
+}
+.etq-c{
+	color: #f92772;
+}
+.title-tail{
+	color: #87de2d;
+}
+main{
+	color: #fff;
+	font-size: 20px;
+}
+.etq-i, .etq-r{
+	color: #fff;
+}
+.etq{
+	padding-left: 50px;
+	transition: 0.5s all ease;
+}
+.p-30{
+	padding-left: 50px;
+}
+.mdl-grid :hover > .etq{
+	background: #565656;
+	padding: 0;
+	margin: 0;
+}
+
+*::-moz-selection{
+	background: rgba(255,255,255,0.1);
+}
+*::selection {
+	background: rgba(255,255,255,0.1);
+}
+.mdl-navigation .mdl-navigation__link{
+	transition: 0.5s all ease;
+	font-weight: 700;
+}
+.mdl-navigation .mdl-navigation__link:hover{
+	background: rgba(255,255,255,0.1);
+}
+.mdl-layout__drawer{
+	background: #0b1016;
+	color: white;
+}
+.mdl-navigation__link .fa{
+	color: #2c71ca;
+}
+button{
+	border: none;
+	background: rgba(255,255,255,0.1);
+	color: inherit;
+	font-size: inherit;
+}
+button:hover{
+	background: #fff;
+	background: #000;
+	cursor: pointer;
+}
+.p-r{
+	color:#00bcd4;
+}
+.signo{
+	color:#e91e63;
+}
+.fun{
+	color:#8dbd0b;
+}
+.var{
+	color: #fff;
+}
+.text{
+	color: #c6c164;
+}
+input{
+	background: rgba(255,255,255,0.1);
+	color: inherit;
+	font-size: inherit;
+	color: #c6c164;
+	border: none;
+	text-align: center;
+}
+input::placeholder{
+	color: #c6c164;
+	text-align: center;
+}
