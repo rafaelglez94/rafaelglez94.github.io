@@ -63,6 +63,7 @@ button{
 	background: rgba(255,255,255,0.1);
 	color: inherit;
 	font-size: inherit;
+	margin: -3px!important;
 }
 button:hover{
 	background: #fff;
@@ -91,6 +92,8 @@ input{
 	color: #c6c164;
 	border: none;
 	text-align: center;
+	padding: 0!important;
+	margin: -3px!important;
 }
 input::placeholder{
 	color: #c6c164;
@@ -99,7 +102,17 @@ input::placeholder{
 .redes a{
 	text-decoration: none;
 	color: #fff;
+	margin: -3px!important;
 }
 .text-center{
 	text-align: center;
+}
+.fixed{
+	position: fixed;
+}
+ .mdl-grid{
+	border-bottom: 0.4px solid rgba(255,255,255,0.1);
+}
+form  input,form  span{
+     line-height: 0px!important;
 }
