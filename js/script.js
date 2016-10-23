@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.lines').html(function(index,value) {
-		for (var i = 0; i < 28; i++) {
+		for (var i = 0; i < 37; i++) {
 			$('<div class="mdl-grid"><div class="mdl-cell mdl-cell--12-col">'+(i+1)+'</div></div>').appendTo('.lines')
 		}
 	});

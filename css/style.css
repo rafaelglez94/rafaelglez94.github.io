@@ -96,3 +96,7 @@ input::placeholder{
 	color: #c6c164;
 	text-align: center;
 }
+.redes a{
+	text-decoration: none;
+	color: #fff;
+}
