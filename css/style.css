@@ -109,10 +109,28 @@ input::placeholder{
 }
 .fixed{
 	position: fixed;
+	right: 20px;
+	width: 240px;
 }
- .mdl-grid{
+.mdl-grid{
 	border-bottom: 0.4px solid rgba(255,255,255,0.1);
 }
 form  input,form  span{
-     line-height: 0px!important;
+	line-height: 0px!important;
+}
+@media (max-width: 600px) {
+	.p-30 {
+		padding: 0px;
+		margin: 0px;
+	}
+	.etq {
+		padding: 0px;
+		margin: 0px;
+	}
+	.etq-cnt{
+		display: block;
+	}
+	.mdl-grid{
+		text-align: center!important;
+	}
 }
