@@ -1,136 +1,135 @@
-.demo-layout-transparent {
-	background: #131a24;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-	background: #0b1016;
-	color: white;
-}
-.mdl-layout-title{
-	color: #61d9ef;
-}
-.mdl-layout-title a{
-	text-decoration: none;
-}
-.etq-c{
-	color: #f92772;
-}
-.title-tail{
-	color: #87de2d;
-}
-main{
-	color: #fff;
-	font-size: 20px;
-}
-.etq-i, .etq-r{
-	color: #fff;
-}
-.etq{
-	padding-left: 50px;
-	transition: 0.5s all ease;
-}
-.p-30{
-	padding-left: 50px;
-}
-.mdl-grid :hover > .etq{
-	background: #565656;
+.redes{
+	color: red;
+	font-size: 1.5em;
 	padding: 0;
-	margin: 0;
+	background: #fff;
+	font-weight: 1100;
+}
+.redes .facebook{
+	color: #3b5998!important;
+}
+.redes .twitter{
+	color: #1DA1F2!important;
+}
+.redes .linkedin{
+	color:#1a84bc!important;
+}
+header{
+	position: relative;
+}
+.navbar-default {
+     border-color: #212121;
+    background: #212121;
+}
+.navbar-default a{
+    color: #fff!important;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #000;
+}
+#banner{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	background-image: url('../img/wp.png');
+	background-attachment:fixed;
+    background-repeat: no-repeat;
 }
 
-*::-moz-selection{
-	background: rgba(255,255,255,0.1);
+#banner .background{
+
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.6);
 }
-*::selection {
-	background: rgba(255,255,255,0.1);
+
+#banner .text{
+	z-index: 100;
+	display: inline-block;
+	font-size: 12px;
+	text-align: right;
+	/*background: #ada;*/
 }
-.mdl-navigation .mdl-navigation__link{
-	transition: 0.5s all ease;
-	font-weight: 700;
+#un{
+	/*transform: rotate(-90deg);*/
+	padding: 4px 4px;
+	display: inline-block;
+	background: #ffdeb1;
+	color: #000;
+	font-size: 4em;
 }
-.mdl-navigation .mdl-navigation__link:hover{
-	background: rgba(255,255,255,0.1);
-}
-.mdl-layout__drawer{
-	background: #0b1016;
-	color: white;
-}
-.mdl-navigation__link .fa{
-	color: #2c71ca;
-}
-button{
-	border: none;
-	background: rgba(255,255,255,0.1);
-	color: inherit;
-	font-size: inherit;
-	margin: -3px!important;
-}
-button:hover{
-	background: #fff;
-	background: #000;
-	cursor: pointer;
-}
-.p-r{
-	color:#00bcd4;
-}
-.signo{
-	color:#e91e63;
-}
-.fun{
-	color:#8dbd0b;
-}
-.var{
+#estudiante{
+	font-size: 4em;
+	padding: 4px 7px;
+	display: inline-block;
+	background: #0d233a;
 	color: #fff;
 }
-.text{
-	color: #c6c164;
+
+#de{
+	font-size: 4em;
+	padding: 4px 5px;
+	/*transform: rotate(-90deg);*/
+	background: #065985;
+	color: #fff;
+	display: inline-block;
 }
-input{
-	background: rgba(255,255,255,0.1);
-	color: inherit;
-	font-size: inherit;
-	color: #c6c164;
-	border: none;
-	text-align: center;
-	padding: 0!important;
-	margin: -3px!important;
+
+#ing{
+	font-size: 4em;
+	padding: 4px 10px;
+	display: inline-block;
+	background: #FFD54F;
+	color: #000;
 }
-input::placeholder{
-	color: #c6c164;
-	text-align: center;
+#sistemas{
+	padding: 5px 15px;
+	background: #1a73b7;
+	color: #fff;
+	font-size: 4em;
+	display: inline-block;
+/*#75c5f8*/
 }
-.redes a{
+#computacionales{
+	padding: 5px 15px;
+	background: #0f5988;
+	color: #fff;
+	font-size: 4em;
+	display: inline-block;
+}
+
+#contacto{
+	background: #1a73b7;/*#75c5f8;*/
+	color: #fff;
+	width: 100%;
+	padding: 20px 20px;
+}
+#contacto a{
 	text-decoration: none;
-	color: #fff;
-	margin: -3px!important;
+	color: #fff!important;
+	font-size: 20px;
 }
-.text-center{
+#contacto a:hover{
+	color: #121212!important;
+}
+#contacto div{
+}
+#tecnologias{
+	background: #fff;
 	text-align: center;
 }
-.fixed{
-	position: fixed;
-	right: 20px;
-	width: 240px;
-}
-.mdl-grid{
-	border-bottom: 0.4px solid rgba(255,255,255,0.1);
-}
-form  input,form  span{
-	line-height: 0px!important;
-}
-@media (max-width: 600px) {
-	.p-30 {
-		padding: 0px;
-		margin: 0px;
-	}
-	.etq {
-		padding: 0px;
-		margin: 0px;
-	}
-	.etq-cnt{
-		display: block;
-	}
-	.mdl-grid{
-		text-align: center!important;
-	}
+.tecnologia{
+	padding: 2px;
+	display: inline-block;
+	width: 100px;
 }
