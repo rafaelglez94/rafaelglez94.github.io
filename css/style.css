@@ -1,0 +1,178 @@
+.redes{
+	color: red;
+	font-size: 1.5em;
+	padding: 0;
+	background: #fff;
+	font-weight: 1100;
+}
+.redes .facebook{
+	color: #3b5998!important;
+}
+.redes .twitter{
+	color: #1DA1F2!important;
+}
+.redes .linkedin{
+	color:#1a84bc!important;
+}
+header{
+	position: relative;
+}
+.navbar-default {
+     border-color: #212121;
+    background: #212121;
+}
+.navbar-default a{
+    color: #fff!important;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #000;
+}
+#banner{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	background-image: url('../img/wp.png');
+	background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+#banner .background{
+
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.6);
+}
+
+#banner .text{
+	z-index: 100;
+	display: inline-block;
+	font-size: 12px;
+	text-align: right;
+	/*background: #ada;*/
+}
+#un{
+	/*transform: rotate(-90deg);*/
+	padding: 4px 4px;
+	display: inline-block;
+	background: #ffdeb1;
+	color: #000;
+	font-size: 4em;
+}
+#estudiante{
+	font-size: 4em;
+	padding: 4px 7px;
+	display: inline-block;
+	background: #0d233a;
+	color: #fff;
+}
+
+#de{
+	font-size: 4em;
+	padding: 4px 5px;
+	/*transform: rotate(-90deg);*/
+	background: #065985;
+	color: #fff;
+	display: inline-block;
+}
+
+#ing{
+	font-size: 4em;
+	padding: 4px 10px;
+	display: inline-block;
+	background: #FFD54F;
+	color: #000;
+}
+#sistemas{
+	padding: 5px 15px;
+	background: #1a73b7;
+	color: #fff;
+	font-size: 4em;
+	display: inline-block;
+/*#75c5f8*/
+}
+#computacionales{
+	padding: 5px 15px;
+	background: #0f5988;
+	color: #fff;
+	font-size: 4em;
+	display: inline-block;
+}
+#sobre_mi{
+	width: 100%;
+	height: 300px;
+	background: #FF5722;/*#FFD600;*/
+	margin: 0;
+	display: table;
+}
+#sobre_mi .text-section{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#sobre_mi .text-section h3{
+	color: #fff;
+	font-size: 30px;
+	line-height: 1.4em;
+	margin: 40px 120px;
+	padding: 40px 120px;
+	background: rgba(2,5,6,0.8);
+	text-align: justify;
+}
+#aptitudes{
+	padding: 30px;
+	background: #333;
+}
+.aptitud{
+	color: #fff;
+	position: relative;
+}
+.aptitud img{
+	width: 100%;
+}
+.aptitud .text-section{
+	text-transform: uppercase;
+	padding: 10px;
+	z-index: 11;
+	font-size: 20px;
+	background: rgba(0,0,0,0.9);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	left: 0;
+}
+#contacto{
+	background: #1a73b7;/*#75c5f8;*/
+	color: #fff;
+	width: 100%;
+	padding: 20px 20px;
+}
+#contacto a{
+	text-decoration: none;
+	color: #fff!important;
+	font-size: 20px;
+}
+#contacto a:hover{
+	color: #121212!important;
+}
+#contacto div{
+}
+#tecnologias{
+	background: #fff;
+	text-align: center;
+}
+.tecnologia{
+	padding: 2px;
+	display: inline-block;
+	width: 100px;
+}
